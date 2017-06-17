@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EFDBEBA21EF54B3000B6E836 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDBEBA11EF54B3000B6E836 /* AppDelegate.swift */; };
+		EFDBEBA41EF54B3000B6E836 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDBEBA31EF54B3000B6E836 /* ViewController.swift */; };
+		EFDBEBA71EF54B3000B6E836 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFDBEBA51EF54B3000B6E836 /* Main.storyboard */; };
+		EFDBEBAA1EF54B3000B6E836 /* FLAVOR.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EFDBEBA81EF54B3000B6E836 /* FLAVOR.xcdatamodeld */; };
+		EFDBEBAC1EF54B3000B6E836 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFDBEBAB1EF54B3000B6E836 /* Assets.xcassets */; };
+		EFDBEBAF1EF54B3000B6E836 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFDBEBAD1EF54B3000B6E836 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EFDBEB9E1EF54B2F00B6E836 /* FLAVOR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FLAVOR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFDBEBA11EF54B3000B6E836 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EFDBEBA31EF54B3000B6E836 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EFDBEBA61EF54B3000B6E836 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFDBEBA91EF54B3000B6E836 /* FLAVOR.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FLAVOR.xcdatamodel; sourceTree = "<group>"; };
+		EFDBEBAB1EF54B3000B6E836 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFDBEBAE1EF54B3000B6E836 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EFDBEBB01EF54B3000B6E836 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFDBEB9B1EF54B2F00B6E836 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFDBEB951EF54B2F00B6E836 = {
+			isa = PBXGroup;
+			children = (
+				EFDBEBA01EF54B2F00B6E836 /* FLAVOR */,
+				EFDBEB9F1EF54B2F00B6E836 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFDBEB9F1EF54B2F00B6E836 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFDBEB9E1EF54B2F00B6E836 /* FLAVOR.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFDBEBA01EF54B2F00B6E836 /* FLAVOR */ = {
+			isa = PBXGroup;
+			children = (
+				EFDBEBA11EF54B3000B6E836 /* AppDelegate.swift */,
+				EFDBEBA31EF54B3000B6E836 /* ViewController.swift */,
+				EFDBEBA51EF54B3000B6E836 /* Main.storyboard */,
+				EFDBEBAB1EF54B3000B6E836 /* Assets.xcassets */,
+				EFDBEBAD1EF54B3000B6E836 /* LaunchScreen.storyboard */,
+				EFDBEBB01EF54B3000B6E836 /* Info.plist */,
+				EFDBEBA81EF54B3000B6E836 /* FLAVOR.xcdatamodeld */,
+			);
+			path = FLAVOR;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFDBEB9D1EF54B2F00B6E836 /* FLAVOR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFDBEBB31EF54B3000B6E836 /* Build configuration list for PBXNativeTarget "FLAVOR" */;
+			buildPhases = (
+				EFDBEB9A1EF54B2F00B6E836 /* Sources */,
+				EFDBEB9B1EF54B2F00B6E836 /* Frameworks */,
+				EFDBEB9C1EF54B2F00B6E836 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FLAVOR;
+			productName = FLAVOR;
+			productReference = EFDBEB9E1EF54B2F00B6E836 /* FLAVOR.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFDBEB961EF54B2F00B6E836 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Chidi Emeh";
+				TargetAttributes = {
+					EFDBEB9D1EF54B2F00B6E836 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EFDBEB991EF54B2F00B6E836 /* Build configuration list for PBXProject "FLAVOR" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFDBEB951EF54B2F00B6E836;
+			productRefGroup = EFDBEB9F1EF54B2F00B6E836 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFDBEB9D1EF54B2F00B6E836 /* FLAVOR */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFDBEB9C1EF54B2F00B6E836 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFDBEBAF1EF54B3000B6E836 /* LaunchScreen.storyboard in Resources */,
+				EFDBEBAC1EF54B3000B6E836 /* Assets.xcassets in Resources */,
+				EFDBEBA71EF54B3000B6E836 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFDBEB9A1EF54B2F00B6E836 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFDBEBA41EF54B3000B6E836 /* ViewController.swift in Sources */,
+				EFDBEBAA1EF54B3000B6E836 /* FLAVOR.xcdatamodeld in Sources */,
+				EFDBEBA21EF54B3000B6E836 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EFDBEBA51EF54B3000B6E836 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFDBEBA61EF54B3000B6E836 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EFDBEBAD1EF54B3000B6E836 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFDBEBAE1EF54B3000B6E836 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFDBEBB11EF54B3000B6E836 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EFDBEBB21EF54B3000B6E836 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFDBEBB41EF54B3000B6E836 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FLAVOR/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.chidiemeh184.FLAVOR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EFDBEBB51EF54B3000B6E836 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FLAVOR/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.chidiemeh184.FLAVOR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFDBEB991EF54B2F00B6E836 /* Build configuration list for PBXProject "FLAVOR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFDBEBB11EF54B3000B6E836 /* Debug */,
+				EFDBEBB21EF54B3000B6E836 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFDBEBB31EF54B3000B6E836 /* Build configuration list for PBXNativeTarget "FLAVOR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFDBEBB41EF54B3000B6E836 /* Debug */,
+				EFDBEBB51EF54B3000B6E836 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EFDBEBA81EF54B3000B6E836 /* FLAVOR.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EFDBEBA91EF54B3000B6E836 /* FLAVOR.xcdatamodel */,
+			);
+			currentVersion = EFDBEBA91EF54B3000B6E836 /* FLAVOR.xcdatamodel */;
+			path = FLAVOR.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EFDBEB961EF54B2F00B6E836 /* Project object */;
+}
