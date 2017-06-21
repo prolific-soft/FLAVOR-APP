@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		EF01C8201EF897BF00AE7F86 /* SigUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF01C81F1EF897BF00AE7F86 /* SigUpViewController.swift */; };
 		EF01C8221EF8A2F700AE7F86 /* CustomButtonTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF01C8211EF8A2F700AE7F86 /* CustomButtonTwo.swift */; };
+		EF01C8241EF991D800AE7F86 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF01C8231EF991D800AE7F86 /* Recipe.swift */; };
+		EF01C8271EF9982200AE7F86 /* RecipeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF01C8261EF9982200AE7F86 /* RecipeList.swift */; };
+		EF01C8291EF99EDB00AE7F86 /* recipe images in Resources */ = {isa = PBXBuildFile; fileRef = EF01C8281EF99EDB00AE7F86 /* recipe images */; };
+		EF01C82D1EF9B44700AE7F86 /* icons in Resources */ = {isa = PBXBuildFile; fileRef = EF01C82C1EF9B44700AE7F86 /* icons */; };
+		EF01C82F1EF9B46800AE7F86 /* filled in Resources */ = {isa = PBXBuildFile; fileRef = EF01C82E1EF9B46800AE7F86 /* filled */; };
 		EF07259B1EF8493300A446E7 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF07259A1EF8493300A446E7 /* LogInViewController.swift */; };
 		EF07259D1EF84C7700A446E7 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF07259C1EF84C7700A446E7 /* CustomTextField.swift */; };
 		EFDBEBA21EF54B3000B6E836 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDBEBA11EF54B3000B6E836 /* AppDelegate.swift */; };
@@ -43,6 +48,11 @@
 /* Begin PBXFileReference section */
 		EF01C81F1EF897BF00AE7F86 /* SigUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SigUpViewController.swift; sourceTree = "<group>"; };
 		EF01C8211EF8A2F700AE7F86 /* CustomButtonTwo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButtonTwo.swift; sourceTree = "<group>"; };
+		EF01C8231EF991D800AE7F86 /* Recipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		EF01C8261EF9982200AE7F86 /* RecipeList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeList.swift; sourceTree = "<group>"; };
+		EF01C8281EF99EDB00AE7F86 /* recipe images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "recipe images"; sourceTree = "<group>"; };
+		EF01C82C1EF9B44700AE7F86 /* icons */ = {isa = PBXFileReference; lastKnownFileType = folder; path = icons; sourceTree = "<group>"; };
+		EF01C82E1EF9B46800AE7F86 /* filled */ = {isa = PBXFileReference; lastKnownFileType = folder; path = filled; sourceTree = "<group>"; };
 		EF0725971EF8470E00A446E7 /* SanFranciscoFont-master */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "SanFranciscoFont-master"; sourceTree = "<group>"; };
 		EF0725981EF8472E00A446E7 /* Montserrat */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Montserrat; sourceTree = "<group>"; };
 		EF07259A1EF8493300A446E7 /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
@@ -75,6 +85,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EF01C8251EF997C400AE7F86 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EF01C8231EF991D800AE7F86 /* Recipe.swift */,
+				EF01C8261EF9982200AE7F86 /* RecipeList.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		EF01C8301EF9B48F00AE7F86 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				EF01C82E1EF9B46800AE7F86 /* filled */,
+				EF01C82C1EF9B44700AE7F86 /* icons */,
+				EF01C8281EF99EDB00AE7F86 /* recipe images */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
 		EF0725991EF848E300A446E7 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -109,9 +138,11 @@
 			children = (
 				EF0725991EF848E300A446E7 /* View Controllers */,
 				EFDBEBC31EF6280400B6E836 /* Custom Views */,
+				EF01C8251EF997C400AE7F86 /* Model */,
 				EFDBEBA11EF54B3000B6E836 /* AppDelegate.swift */,
 				EFDBEBC11EF55D5300B6E836 /* CustomColor.swift */,
 				EFDBEBA51EF54B3000B6E836 /* Main.storyboard */,
+				EF01C8301EF9B48F00AE7F86 /* Icons */,
 				EFDBEBAB1EF54B3000B6E836 /* Assets.xcassets */,
 				EFDBEBAD1EF54B3000B6E836 /* LaunchScreen.storyboard */,
 				EFDBEBB01EF54B3000B6E836 /* Info.plist */,
@@ -202,10 +233,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFDBEBBE1EF558DF00B6E836 /* Montserrat in Resources */,
+				EF01C82D1EF9B44700AE7F86 /* icons in Resources */,
 				EFDBEBC01EF55B9100B6E836 /* SanFranciscoFont-master in Resources */,
 				EFDBEBAF1EF54B3000B6E836 /* LaunchScreen.storyboard in Resources */,
 				EFDBEBAC1EF54B3000B6E836 /* Assets.xcassets in Resources */,
 				EFDBEBA71EF54B3000B6E836 /* Main.storyboard in Resources */,
+				EF01C82F1EF9B46800AE7F86 /* filled in Resources */,
+				EF01C8291EF99EDB00AE7F86 /* recipe images in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,9 +257,11 @@
 				EFDBEBC21EF55D5300B6E836 /* CustomColor.swift in Sources */,
 				EF07259B1EF8493300A446E7 /* LogInViewController.swift in Sources */,
 				EF07259D1EF84C7700A446E7 /* CustomTextField.swift in Sources */,
+				EF01C8271EF9982200AE7F86 /* RecipeList.swift in Sources */,
 				EFDBEBA21EF54B3000B6E836 /* AppDelegate.swift in Sources */,
 				EFDBEBC71EF6B7FC00B6E836 /* LogInSignUpViewController.swift in Sources */,
 				EFDBEBC51EF6284700B6E836 /* CustomButton.swift in Sources */,
+				EF01C8241EF991D800AE7F86 /* Recipe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
