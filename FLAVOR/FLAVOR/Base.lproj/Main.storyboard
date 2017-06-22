@@ -158,34 +158,148 @@
             </objects>
             <point key="canvasLocation" x="-663" y="-512"/>
         </scene>
-        <!--Item-->
-        <scene sceneID="dsA-Fg-DGb">
+        <!--FLAVOR-->
+        <scene sceneID="Eie-cN-20e">
             <objects>
-                <tableViewController id="eIC-rm-Yhf" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="KPe-f8-eWK">
+                <tableViewController storyboardIdentifier="HomeTableViewController" id="6g9-V8-hXy" customClass="HomeTableViewController" customModule="FLAVOR" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="233" sectionHeaderHeight="28" sectionFooterHeight="28" id="qSE-r5-gBk">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <collectionView key="tableHeaderView" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="6qo-ke-gQH">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="134"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                            <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="15" id="FMP-MY-R2w">
+                                <size key="itemSize" width="200" height="128"/>
+                                <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                <inset key="sectionInset" minX="15" minY="10" maxX="15" maxY="10"/>
+                            </collectionViewFlowLayout>
+                            <cells>
+                                <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="collectionCell" id="U21-73-eSf" customClass="FeaturedRecipesCollectionViewCell" customModule="FLAVOR" customModuleProvider="target">
+                                    <rect key="frame" x="15" y="15" width="208" height="104"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                        <rect key="frame" x="0.0" y="0.0" width="208" height="104"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="soup-1" translatesAutoresizingMaskIntoConstraints="NO" id="GMk-Tb-6bo">
+                                                <rect key="frame" x="0.0" y="0.0" width="208" height="103"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                        </subviews>
+                                    </view>
+                                    <size key="customSize" width="208" height="104"/>
+                                    <connections>
+                                        <outlet property="recipeImage" destination="GMk-Tb-6bo" id="h4k-NX-x0D"/>
+                                    </connections>
+                                </collectionViewCell>
+                            </cells>
+                            <connections>
+                                <outlet property="dataSource" destination="6g9-V8-hXy" id="VmY-ra-GcR"/>
+                                <outlet property="delegate" destination="6g9-V8-hXy" id="J1h-U1-Wts"/>
+                            </connections>
+                        </collectionView>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="ctj-49-MQl">
-                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="0.0" reuseIdentifier="LatestCell" rowHeight="233" id="aQC-fA-clK" customClass="LatestRecipeTableViewCell" customModule="FLAVOR" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="162" width="375" height="233"/>
                                 <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ctj-49-MQl" id="x7w-xv-XBu">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="aQC-fA-clK" id="cMJ-RR-Bgt">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="232.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ova-p6-grO">
+                                            <rect key="frame" x="14" y="-1" width="344" height="231"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="HEALTHY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sj6-C4-gfa">
+                                                    <rect key="frame" x="15" y="136" width="312" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="SanFranciscoText-Regular" family="San Francisco Text" pointSize="10"/>
+                                                    <color key="textColor" red="0.61960784313725492" green="0.61960784313725492" blue="0.61960784313725492" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pasta Salad" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wjQ-Oh-Y28">
+                                                    <rect key="frame" x="16" y="160" width="312" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="SanFranciscoText-Regular" family="San Francisco Text" pointSize="16"/>
+                                                    <color key="textColor" red="0.1960784314" green="0.1960784314" blue="0.1960784314" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icons8-Clock-48" translatesAutoresizingMaskIntoConstraints="NO" id="xDy-Ix-0bf">
+                                                    <rect key="frame" x="16" y="196" width="15" height="16"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="30 minutes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iJy-2w-Yva">
+                                                    <rect key="frame" x="41" y="193" width="79" height="24"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="SanFranciscoText-Regular" family="San Francisco Text" pointSize="13"/>
+                                                    <color key="textColor" red="0.61960784310000006" green="0.61960784310000006" blue="0.61960784310000006" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Easy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ntp-2Q-0FN">
+                                                    <rect key="frame" x="163" y="193" width="78" height="24"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="SanFranciscoText-Regular" family="San Francisco Text" pointSize="13"/>
+                                                    <color key="textColor" red="0.61960784310000006" green="0.61960784310000006" blue="0.61960784310000006" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icons8-Menu-48" translatesAutoresizingMaskIntoConstraints="NO" id="k60-Xh-t2f">
+                                                    <rect key="frame" x="137" y="196" width="15" height="16"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icons8-Restaurant-26" translatesAutoresizingMaskIntoConstraints="NO" id="YWt-70-jVr">
+                                                    <rect key="frame" x="225" y="196" width="16" height="16"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="6 People" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vj3-lM-jNc">
+                                                    <rect key="frame" x="245" y="193" width="79" height="24"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="SanFranciscoText-Regular" family="San Francisco Text" pointSize="13"/>
+                                                    <color key="textColor" red="0.61960784310000006" green="0.61960784310000006" blue="0.61960784310000006" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="salad" translatesAutoresizingMaskIntoConstraints="NO" id="d8P-9f-DrR">
+                                                    <rect key="frame" x="0.0" y="0.0" width="344" height="126"/>
+                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </view>
+                                    </subviews>
+                                    <color key="backgroundColor" red="0.66666666666666663" green="0.66666668653488159" blue="0.66666668653488159" alpha="0.1365582191780822" colorSpace="calibratedRGB"/>
                                 </tableViewCellContentView>
+                                <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <connections>
+                                    <outlet property="categoryLabel" destination="sj6-C4-gfa" id="KfV-fr-2Md"/>
+                                    <outlet property="diffucultyLabel" destination="ntp-2Q-0FN" id="yyT-de-msH"/>
+                                    <outlet property="recipeImage" destination="d8P-9f-DrR" id="OJr-49-6tl"/>
+                                    <outlet property="recipeNameLabel" destination="wjQ-Oh-Y28" id="HK5-76-L87"/>
+                                    <outlet property="servingLabel" destination="vj3-lM-jNc" id="s1e-Ks-Cy1"/>
+                                    <outlet property="timeLabel" destination="iJy-2w-Yva" id="n0w-kd-rfF"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
-                            <outlet property="dataSource" destination="eIC-rm-Yhf" id="iLz-4X-88Y"/>
-                            <outlet property="delegate" destination="eIC-rm-Yhf" id="0ec-Ja-ULq"/>
+                            <outlet property="dataSource" destination="6g9-V8-hXy" id="qhm-kX-Id6"/>
+                            <outlet property="delegate" destination="6g9-V8-hXy" id="uOE-MS-Ccp"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Item" id="6pX-7H-o3a"/>
+                    <navigationItem key="navigationItem" title="FLAVOR" id="nQX-cl-2gM">
+                        <barButtonItem key="leftBarButtonItem" image="ic_notification" id="imb-Br-JtZ">
+                            <color key="tintColor" red="0.1960784314" green="0.1960784314" blue="0.1960784314" alpha="1" colorSpace="calibratedRGB"/>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" image="ic_search" id="hgO-lN-QMV">
+                            <color key="tintColor" red="0.1960784314" green="0.1960784314" blue="0.1960784314" alpha="1" colorSpace="calibratedRGB"/>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="featuredRecipeCollectionView" destination="6qo-ke-gQH" id="XGh-Co-w6t"/>
+                    </connections>
                 </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="lrr-gb-tNp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5G4-43-Scv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2023" y="-483"/>
+            <point key="canvasLocation" x="2133.5999999999999" y="373.76311844077964"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="wQF-68-JWt">
@@ -210,13 +324,13 @@
                             <outlet property="delegate" destination="nGK-hl-KyG" id="niA-zc-TLi"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="" id="5on-tz-O8X"/>
+                    <tabBarItem key="tabBarItem" title="" image="ic_recipes_grey" selectedImage="ic_recipes_orange" id="5on-tz-O8X"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iuJ-Kw-ids" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2921" y="-484"/>
+            <point key="canvasLocation" x="3153" y="-470"/>
         </scene>
-        <!--Item-->
+        <!--Table View Controller-->
         <scene sceneID="7P8-Wr-cSp">
             <objects>
                 <tableViewController id="nOy-im-ZEe" sceneMemberID="viewController">
@@ -239,13 +353,13 @@
                             <outlet property="delegate" destination="nOy-im-ZEe" id="vQn-o8-6Xr"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Item" id="Loh-VI-9hp"/>
+                    <tabBarItem key="tabBarItem" title="" image="ic_favorites_grey" selectedImage="ic_favorites_orange" id="Loh-VI-9hp"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="l9Q-n6-8pI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3759" y="-484"/>
+            <point key="canvasLocation" x="4696.8000000000002" y="-484.40779610194909"/>
         </scene>
-        <!--Item-->
+        <!--Table View Controller-->
         <scene sceneID="mUz-l0-dcx">
             <objects>
                 <tableViewController id="aHe-qV-6Wt" sceneMemberID="viewController">
@@ -268,23 +382,23 @@
                             <outlet property="delegate" destination="aHe-qV-6Wt" id="iMT-ks-ATG"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Item" id="2Q8-Q7-x4V"/>
+                    <tabBarItem key="tabBarItem" title="" image="ic_profile_grey" selectedImage="ic_profile_orange" id="2Q8-Q7-x4V"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="46a-e5-QEO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4550" y="-480"/>
+            <point key="canvasLocation" x="5488.8000000000002" y="-480.80959520239884"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="1RH-gD-tyE">
             <objects>
-                <tabBarController id="06g-KD-Fga" sceneMemberID="viewController">
+                <tabBarController id="06g-KD-Fga" customClass="TabBarController" customModule="FLAVOR" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" id="kJ0-uG-g3g">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
-                        <segue destination="eIC-rm-Yhf" kind="relationship" relationship="viewControllers" id="T6K-gd-Jqo"/>
+                        <segue destination="Y0c-zi-pT8" kind="relationship" relationship="viewControllers" id="nrn-gP-XxH"/>
                         <segue destination="nGK-hl-KyG" kind="relationship" relationship="viewControllers" id="wLR-FS-ods"/>
                         <segue destination="nOy-im-ZEe" kind="relationship" relationship="viewControllers" id="rvy-tH-KvP"/>
                         <segue destination="aHe-qV-6Wt" kind="relationship" relationship="viewControllers" id="4yO-uT-XeI"/>
@@ -383,9 +497,45 @@
             </objects>
             <point key="canvasLocation" x="802" y="-512"/>
         </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="FmM-8f-9MX">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Y0c-zi-pT8" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="ic_home_grey" selectedImage="ic_home_orange" id="D0F-92-MIc"/>
+                    <toolbarItems/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="667"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="ycX-TE-AvB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="6g9-V8-hXy" kind="relationship" relationship="rootViewController" id="NJ5-XX-fPM"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0Yc-mU-ebI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2133.5999999999999" y="-484.40779610194909"/>
+        </scene>
     </scenes>
     <resources>
         <image name="back-Filled-50" width="50" height="50"/>
         <image name="back_Arrow" width="128" height="128"/>
+        <image name="ic_favorites_grey" width="18" height="16"/>
+        <image name="ic_favorites_orange" width="18" height="16"/>
+        <image name="ic_home_grey" width="18" height="15"/>
+        <image name="ic_home_orange" width="18" height="15"/>
+        <image name="ic_notification" width="16" height="18"/>
+        <image name="ic_profile_grey" width="17" height="18"/>
+        <image name="ic_profile_orange" width="17" height="18"/>
+        <image name="ic_recipes_grey" width="15" height="18"/>
+        <image name="ic_recipes_orange" width="15" height="18"/>
+        <image name="ic_search" width="18" height="18"/>
+        <image name="icons8-Clock-48" width="48" height="48"/>
+        <image name="icons8-Menu-48" width="48" height="48"/>
+        <image name="icons8-Restaurant-26" width="26" height="26"/>
+        <image name="salad" width="344" height="128"/>
+        <image name="soup-1" width="208" height="128"/>
     </resources>
 </document>

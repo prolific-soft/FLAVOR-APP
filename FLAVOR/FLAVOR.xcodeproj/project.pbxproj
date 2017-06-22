@@ -8,18 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		EF01C8201EF897BF00AE7F86 /* SigUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF01C81F1EF897BF00AE7F86 /* SigUpViewController.swift */; };
-		EF01C8221EF8A2F700AE7F86 /* CustomButtonTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF01C8211EF8A2F700AE7F86 /* CustomButtonTwo.swift */; };
 		EF01C8241EF991D800AE7F86 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF01C8231EF991D800AE7F86 /* Recipe.swift */; };
 		EF01C8271EF9982200AE7F86 /* RecipeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF01C8261EF9982200AE7F86 /* RecipeList.swift */; };
-		EF01C8291EF99EDB00AE7F86 /* recipe images in Resources */ = {isa = PBXBuildFile; fileRef = EF01C8281EF99EDB00AE7F86 /* recipe images */; };
-		EF01C82D1EF9B44700AE7F86 /* icons in Resources */ = {isa = PBXBuildFile; fileRef = EF01C82C1EF9B44700AE7F86 /* icons */; };
-		EF01C82F1EF9B46800AE7F86 /* filled in Resources */ = {isa = PBXBuildFile; fileRef = EF01C82E1EF9B46800AE7F86 /* filled */; };
+		EF01C83A1EFA385D00AE7F86 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF01C8391EFA385D00AE7F86 /* TabBarController.swift */; };
+		EF01C83C1EFAB93D00AE7F86 /* flavor_icons in Resources */ = {isa = PBXBuildFile; fileRef = EF01C83B1EFAB93D00AE7F86 /* flavor_icons */; };
 		EF07259B1EF8493300A446E7 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF07259A1EF8493300A446E7 /* LogInViewController.swift */; };
 		EF07259D1EF84C7700A446E7 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF07259C1EF84C7700A446E7 /* CustomTextField.swift */; };
+		EF4EA09C1EFAC136003816BD /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4EA09B1EFAC136003816BD /* HomeTableViewController.swift */; };
+		EF4EA09E1EFAC1FF003816BD /* LatestRecipeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4EA09D1EFAC1FF003816BD /* LatestRecipeTableViewCell.swift */; };
+		EF4EA0A01EFACE14003816BD /* icons8-Clock-48.png in Resources */ = {isa = PBXBuildFile; fileRef = EF4EA09F1EFACE14003816BD /* icons8-Clock-48.png */; };
+		EF4EA0A21EFAD054003816BD /* icons8-Menu-48.png in Resources */ = {isa = PBXBuildFile; fileRef = EF4EA0A11EFAD054003816BD /* icons8-Menu-48.png */; };
+		EF4EA0A41EFAD073003816BD /* icons8-Restaurant-26.png in Resources */ = {isa = PBXBuildFile; fileRef = EF4EA0A31EFAD073003816BD /* icons8-Restaurant-26.png */; };
+		EFB2B5F01EFB83F700CD8B10 /* soup@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EFB2B5ED1EFB83F700CD8B10 /* soup@3x.png */; };
+		EFB2B5F11EFB83F700CD8B10 /* soup@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EFB2B5EE1EFB83F700CD8B10 /* soup@2x.png */; };
+		EFB2B5F21EFB83F700CD8B10 /* soup.png in Resources */ = {isa = PBXBuildFile; fileRef = EFB2B5EF1EFB83F700CD8B10 /* soup.png */; };
+		EFB2B5F41EFB845300CD8B10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFB2B5F31EFB845300CD8B10 /* Assets.xcassets */; };
+		EFB2B5F61EFB854E00CD8B10 /* FeaturedRecipesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB2B5F51EFB854E00CD8B10 /* FeaturedRecipesCollectionViewCell.swift */; };
 		EFDBEBA21EF54B3000B6E836 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDBEBA11EF54B3000B6E836 /* AppDelegate.swift */; };
 		EFDBEBA71EF54B3000B6E836 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFDBEBA51EF54B3000B6E836 /* Main.storyboard */; };
 		EFDBEBAA1EF54B3000B6E836 /* FLAVOR.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EFDBEBA81EF54B3000B6E836 /* FLAVOR.xcdatamodeld */; };
-		EFDBEBAC1EF54B3000B6E836 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFDBEBAB1EF54B3000B6E836 /* Assets.xcassets */; };
 		EFDBEBAF1EF54B3000B6E836 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFDBEBAD1EF54B3000B6E836 /* LaunchScreen.storyboard */; };
 		EFDBEBB71EF54F5B00B6E836 /* Chameleon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFDBEBB61EF54F5B00B6E836 /* Chameleon.framework */; };
 		EFDBEBB81EF54F5B00B6E836 /* Chameleon.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EFDBEBB61EF54F5B00B6E836 /* Chameleon.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -47,21 +54,28 @@
 
 /* Begin PBXFileReference section */
 		EF01C81F1EF897BF00AE7F86 /* SigUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SigUpViewController.swift; sourceTree = "<group>"; };
-		EF01C8211EF8A2F700AE7F86 /* CustomButtonTwo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButtonTwo.swift; sourceTree = "<group>"; };
 		EF01C8231EF991D800AE7F86 /* Recipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 		EF01C8261EF9982200AE7F86 /* RecipeList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeList.swift; sourceTree = "<group>"; };
-		EF01C8281EF99EDB00AE7F86 /* recipe images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "recipe images"; sourceTree = "<group>"; };
-		EF01C82C1EF9B44700AE7F86 /* icons */ = {isa = PBXFileReference; lastKnownFileType = folder; path = icons; sourceTree = "<group>"; };
-		EF01C82E1EF9B46800AE7F86 /* filled */ = {isa = PBXFileReference; lastKnownFileType = folder; path = filled; sourceTree = "<group>"; };
+		EF01C8391EFA385D00AE7F86 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		EF01C83B1EFAB93D00AE7F86 /* flavor_icons */ = {isa = PBXFileReference; lastKnownFileType = folder; path = flavor_icons; sourceTree = "<group>"; };
 		EF0725971EF8470E00A446E7 /* SanFranciscoFont-master */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "SanFranciscoFont-master"; sourceTree = "<group>"; };
 		EF0725981EF8472E00A446E7 /* Montserrat */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Montserrat; sourceTree = "<group>"; };
 		EF07259A1EF8493300A446E7 /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		EF07259C1EF84C7700A446E7 /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		EF4EA09B1EFAC136003816BD /* HomeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
+		EF4EA09D1EFAC1FF003816BD /* LatestRecipeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LatestRecipeTableViewCell.swift; sourceTree = "<group>"; };
+		EF4EA09F1EFACE14003816BD /* icons8-Clock-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-Clock-48.png"; sourceTree = "<group>"; };
+		EF4EA0A11EFAD054003816BD /* icons8-Menu-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-Menu-48.png"; sourceTree = "<group>"; };
+		EF4EA0A31EFAD073003816BD /* icons8-Restaurant-26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-Restaurant-26.png"; sourceTree = "<group>"; };
+		EFB2B5ED1EFB83F700CD8B10 /* soup@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "soup@3x.png"; sourceTree = "<group>"; };
+		EFB2B5EE1EFB83F700CD8B10 /* soup@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "soup@2x.png"; sourceTree = "<group>"; };
+		EFB2B5EF1EFB83F700CD8B10 /* soup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = soup.png; sourceTree = "<group>"; };
+		EFB2B5F31EFB845300CD8B10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFB2B5F51EFB854E00CD8B10 /* FeaturedRecipesCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeaturedRecipesCollectionViewCell.swift; sourceTree = "<group>"; };
 		EFDBEB9E1EF54B2F00B6E836 /* FLAVOR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FLAVOR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFDBEBA11EF54B3000B6E836 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EFDBEBA61EF54B3000B6E836 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EFDBEBA91EF54B3000B6E836 /* FLAVOR.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FLAVOR.xcdatamodel; sourceTree = "<group>"; };
-		EFDBEBAB1EF54B3000B6E836 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFDBEBAE1EF54B3000B6E836 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EFDBEBB01EF54B3000B6E836 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EFDBEBB61EF54F5B00B6E836 /* Chameleon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Chameleon.framework; path = ../Carthage/Build/iOS/Chameleon.framework; sourceTree = "<group>"; };
@@ -94,22 +108,16 @@
 			name = Model;
 			sourceTree = "<group>";
 		};
-		EF01C8301EF9B48F00AE7F86 /* Icons */ = {
-			isa = PBXGroup;
-			children = (
-				EF01C82E1EF9B46800AE7F86 /* filled */,
-				EF01C82C1EF9B44700AE7F86 /* icons */,
-				EF01C8281EF99EDB00AE7F86 /* recipe images */,
-			);
-			name = Icons;
-			sourceTree = "<group>";
-		};
 		EF0725991EF848E300A446E7 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
 				EFDBEBC61EF6B7FC00B6E836 /* LogInSignUpViewController.swift */,
 				EF07259A1EF8493300A446E7 /* LogInViewController.swift */,
 				EF01C81F1EF897BF00AE7F86 /* SigUpViewController.swift */,
+				EF01C8391EFA385D00AE7F86 /* TabBarController.swift */,
+				EF4EA09B1EFAC136003816BD /* HomeTableViewController.swift */,
+				EF4EA09D1EFAC1FF003816BD /* LatestRecipeTableViewCell.swift */,
+				EFB2B5F51EFB854E00CD8B10 /* FeaturedRecipesCollectionViewCell.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -142,8 +150,14 @@
 				EFDBEBA11EF54B3000B6E836 /* AppDelegate.swift */,
 				EFDBEBC11EF55D5300B6E836 /* CustomColor.swift */,
 				EFDBEBA51EF54B3000B6E836 /* Main.storyboard */,
-				EF01C8301EF9B48F00AE7F86 /* Icons */,
-				EFDBEBAB1EF54B3000B6E836 /* Assets.xcassets */,
+				EFB2B5F31EFB845300CD8B10 /* Assets.xcassets */,
+				EFB2B5ED1EFB83F700CD8B10 /* soup@3x.png */,
+				EFB2B5EE1EFB83F700CD8B10 /* soup@2x.png */,
+				EFB2B5EF1EFB83F700CD8B10 /* soup.png */,
+				EF4EA0A11EFAD054003816BD /* icons8-Menu-48.png */,
+				EF4EA09F1EFACE14003816BD /* icons8-Clock-48.png */,
+				EF4EA0A31EFAD073003816BD /* icons8-Restaurant-26.png */,
+				EF01C83B1EFAB93D00AE7F86 /* flavor_icons */,
 				EFDBEBAD1EF54B3000B6E836 /* LaunchScreen.storyboard */,
 				EFDBEBB01EF54B3000B6E836 /* Info.plist */,
 				EFDBEBA81EF54B3000B6E836 /* FLAVOR.xcdatamodeld */,
@@ -167,7 +181,6 @@
 				EFDBEBC41EF6284700B6E836 /* CustomButton.swift */,
 				EFDBEBC81EF830AC00B6E836 /* CustomLabel.swift */,
 				EF07259C1EF84C7700A446E7 /* CustomTextField.swift */,
-				EF01C8211EF8A2F700AE7F86 /* CustomButtonTwo.swift */,
 			);
 			name = "Custom Views";
 			sourceTree = "<group>";
@@ -233,13 +246,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFDBEBBE1EF558DF00B6E836 /* Montserrat in Resources */,
-				EF01C82D1EF9B44700AE7F86 /* icons in Resources */,
+				EF01C83C1EFAB93D00AE7F86 /* flavor_icons in Resources */,
+				EFB2B5F21EFB83F700CD8B10 /* soup.png in Resources */,
 				EFDBEBC01EF55B9100B6E836 /* SanFranciscoFont-master in Resources */,
 				EFDBEBAF1EF54B3000B6E836 /* LaunchScreen.storyboard in Resources */,
-				EFDBEBAC1EF54B3000B6E836 /* Assets.xcassets in Resources */,
+				EF4EA0A21EFAD054003816BD /* icons8-Menu-48.png in Resources */,
+				EFB2B5F11EFB83F700CD8B10 /* soup@2x.png in Resources */,
+				EF4EA0A41EFAD073003816BD /* icons8-Restaurant-26.png in Resources */,
+				EF4EA0A01EFACE14003816BD /* icons8-Clock-48.png in Resources */,
+				EFB2B5F01EFB83F700CD8B10 /* soup@3x.png in Resources */,
+				EFB2B5F41EFB845300CD8B10 /* Assets.xcassets in Resources */,
 				EFDBEBA71EF54B3000B6E836 /* Main.storyboard in Resources */,
-				EF01C82F1EF9B46800AE7F86 /* filled in Resources */,
-				EF01C8291EF99EDB00AE7F86 /* recipe images in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,11 +268,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF01C8201EF897BF00AE7F86 /* SigUpViewController.swift in Sources */,
-				EF01C8221EF8A2F700AE7F86 /* CustomButtonTwo.swift in Sources */,
+				EF01C83A1EFA385D00AE7F86 /* TabBarController.swift in Sources */,
 				EFDBEBAA1EF54B3000B6E836 /* FLAVOR.xcdatamodeld in Sources */,
+				EF4EA09C1EFAC136003816BD /* HomeTableViewController.swift in Sources */,
 				EFDBEBC91EF830AC00B6E836 /* CustomLabel.swift in Sources */,
+				EF4EA09E1EFAC1FF003816BD /* LatestRecipeTableViewCell.swift in Sources */,
 				EFDBEBC21EF55D5300B6E836 /* CustomColor.swift in Sources */,
 				EF07259B1EF8493300A446E7 /* LogInViewController.swift in Sources */,
+				EFB2B5F61EFB854E00CD8B10 /* FeaturedRecipesCollectionViewCell.swift in Sources */,
 				EF07259D1EF84C7700A446E7 /* CustomTextField.swift in Sources */,
 				EF01C8271EF9982200AE7F86 /* RecipeList.swift in Sources */,
 				EFDBEBA21EF54B3000B6E836 /* AppDelegate.swift in Sources */,

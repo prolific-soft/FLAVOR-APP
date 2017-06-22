@@ -14,10 +14,9 @@ import UIKit
 //of the recipe
 struct RecipeList {
     
-    //Main List to hold recipes
-    var list: [Recipe]?
     
     //Creating 10 Recipe
+    
     
     //Salad
     var salad = Recipe(category: "Salad", name: "Pasta Salad", image: UIImage(named: "salad.jpg")!, time: 10, difficulty: "Easy", serving: 2, ingredients:
@@ -127,26 +126,27 @@ struct RecipeList {
                                      "Add mixed greens, cherry tomatoes, and radishes; toss to coat."])
     
     //Returns a list of recipes
-    mutating func loadRecipe() -> [Recipe]{
+    func loadRecipe() -> [Recipe]{
         
-        var tempRecipe = [pasta, cake, apepetizer, beverage, breakfast, maindish, soup, salad,
+        let tempList = [pasta, cake, apepetizer, beverage, breakfast, maindish, soup, salad,
                           beverage, breakfast, maindish, soup, pasta, cake, apepetizer, beverage, breakfast, maindish, breakfast, maindish, soup, pasta, cake, apepetizer, cake, apepetizer, beverage, breakfast, maindish, soup, salad,
                           beverage, breakfast, maindish, soup, pasta, cake, apepetizer, beverage, breakfast, maindish, breakfast, maindish, breakfast, maindish, soup, pasta, cake, apepetizer, cake, apepetizer, beverage, breakfast, maindish, soup, salad,
                           beverage, breakfast]
-        for recipe in tempRecipe {
-            list?.append(recipe)
-        }
         
-        return tempRecipe
+        return tempList
     }
+
+    
     
     
     //Returns a list of categories for recipe
     func populateCategories() -> [String] {
         
+        let tempList = RecipeList().loadRecipe()
+        
         var categories = [String]()
         
-        for recipe in list! {
+        for recipe in tempList {
             categories.append(recipe.category)
         }
         
