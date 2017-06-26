@@ -24,6 +24,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         homeTableVC.homeList = list.loadRecipe()
         */
         
+        //Pass the list to HomeTableViewController
+        /*
+         let list = RecipeList()
+         let categoryTableVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "CategoryTableViewController") as! CategoryTableViewController
+         categoryTableVC.recipe = list.loadRecipe()
+        */
+
+        
         return true
     }
 
