@@ -18,6 +18,11 @@ class CategoryTableViewController: UITableViewController {
         
          recipe = RecipeList().loadRecipe()
          //self.tableView.register(CategoryTableViewCell.self, forCellReuseIdentifier: categoryCellReuseIdentifier)
+        
+        //Transparent Navigation Bar
+        self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
+        self.navigationController?.navigationBar.shadowImage = UIImage()
+        self.navigationController?.navigationBar.isTranslucent = true
     }
 
 
@@ -35,7 +40,7 @@ class CategoryTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: categoryCellReuseIdentifier, for: indexPath) as! CategoryTableViewCell
 
-       cell.categoryNameLabel.text = recipe[indexPath.row].category
+       cell.categoryNameLabel.text = recipe[indexPath.row].category.uppercased()
         
         //print(recipe[indexPath.row].category)
 
