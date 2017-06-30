@@ -25,6 +25,8 @@ struct Recipe {
     var ingredients: [String]!
     var instructions: [String]!
     
+    var isFavorite = false
+    
     //Initializer
     init(category: String, name: String, image: UIImage, time: Int16, difficulty: String, serving: Int16, ingredients : [String], instructions: [String]) {
         self.category = category
@@ -39,6 +41,8 @@ struct Recipe {
     }
     
     
-    
+    mutating func setFavorite() {
+        isFavorite = true
+    }
     
 }

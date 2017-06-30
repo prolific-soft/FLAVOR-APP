@@ -55,11 +55,16 @@ class TestTableViewController: UITableViewController {
         
         return headerXib
     }
+ 
     
     override func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
-        return 30
+        return section == 0 ? 30 : 50
     }
     
+    override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        return section == 0 ? sections[section].uppercased() : sections[section].uppercased()
+        
+    }
 
     // MARK: - Table view data source
     override func numberOfSections(in tableView: UITableView) -> Int {

@@ -15,12 +15,17 @@
 		EF07259B1EF8493300A446E7 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF07259A1EF8493300A446E7 /* LogInViewController.swift */; };
 		EF07259D1EF84C7700A446E7 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF07259C1EF84C7700A446E7 /* CustomTextField.swift */; };
 		EF4EA09C1EFAC136003816BD /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4EA09B1EFAC136003816BD /* HomeTableViewController.swift */; };
-		EF4EA09E1EFAC1FF003816BD /* LatestRecipeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4EA09D1EFAC1FF003816BD /* LatestRecipeTableViewCell.swift */; };
 		EF4EA0A01EFACE14003816BD /* icons8-Clock-48.png in Resources */ = {isa = PBXBuildFile; fileRef = EF4EA09F1EFACE14003816BD /* icons8-Clock-48.png */; };
 		EF4EA0A21EFAD054003816BD /* icons8-Menu-48.png in Resources */ = {isa = PBXBuildFile; fileRef = EF4EA0A11EFAD054003816BD /* icons8-Menu-48.png */; };
 		EF4EA0A41EFAD073003816BD /* icons8-Restaurant-26.png in Resources */ = {isa = PBXBuildFile; fileRef = EF4EA0A31EFAD073003816BD /* icons8-Restaurant-26.png */; };
 		EF5F0E6B1EFC119C00BF7722 /* TestTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5F0E6A1EFC119C00BF7722 /* TestTableViewController.swift */; };
 		EF5F0E6D1EFC19FC00BF7722 /* TestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5F0E6C1EFC19FC00BF7722 /* TestTableViewCell.swift */; };
+		EF6A27251F053DD10035252F /* recipeHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF6A27241F053DD10035252F /* recipeHeaderView.xib */; };
+		EF6A27271F053E0E0035252F /* RecipeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6A27261F053E0E0035252F /* RecipeHeaderView.swift */; };
+		EF6A27291F0544EC0035252F /* RecipeInstructionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6A27281F0544EC0035252F /* RecipeInstructionTableViewCell.swift */; };
+		EF6A272B1F05C46A0035252F /* FeaturedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6A272A1F05C46A0035252F /* FeaturedTableViewCell.swift */; };
+		EF6A272D1F05C47D0035252F /* LatestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6A272C1F05C47D0035252F /* LatestTableViewCell.swift */; };
+		EF6A272F1F05CCC20035252F /* FeaturedCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6A272E1F05CCC20035252F /* FeaturedCollectionViewCell.swift */; };
 		EF7A0A481EFFE4ED00F19C49 /* TestTableViewCellPrototype.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7A0A471EFFE4ED00F19C49 /* TestTableViewCellPrototype.swift */; };
 		EF7A0A4A1F0196EE00F19C49 /* CategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7A0A491F0196EE00F19C49 /* CategoryTableViewController.swift */; };
 		EF7A0A4D1F01975500F19C49 /* CategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7A0A4C1F01975500F19C49 /* CategoryTableViewCell.swift */; };
@@ -79,12 +84,17 @@
 		EF07259A1EF8493300A446E7 /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		EF07259C1EF84C7700A446E7 /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		EF4EA09B1EFAC136003816BD /* HomeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
-		EF4EA09D1EFAC1FF003816BD /* LatestRecipeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LatestRecipeTableViewCell.swift; sourceTree = "<group>"; };
 		EF4EA09F1EFACE14003816BD /* icons8-Clock-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-Clock-48.png"; sourceTree = "<group>"; };
 		EF4EA0A11EFAD054003816BD /* icons8-Menu-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-Menu-48.png"; sourceTree = "<group>"; };
 		EF4EA0A31EFAD073003816BD /* icons8-Restaurant-26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-Restaurant-26.png"; sourceTree = "<group>"; };
 		EF5F0E6A1EFC119C00BF7722 /* TestTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestTableViewController.swift; sourceTree = "<group>"; };
 		EF5F0E6C1EFC19FC00BF7722 /* TestTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestTableViewCell.swift; sourceTree = "<group>"; };
+		EF6A27241F053DD10035252F /* recipeHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = recipeHeaderView.xib; sourceTree = "<group>"; };
+		EF6A27261F053E0E0035252F /* RecipeHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeHeaderView.swift; sourceTree = "<group>"; };
+		EF6A27281F0544EC0035252F /* RecipeInstructionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeInstructionTableViewCell.swift; sourceTree = "<group>"; };
+		EF6A272A1F05C46A0035252F /* FeaturedTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeaturedTableViewCell.swift; sourceTree = "<group>"; };
+		EF6A272C1F05C47D0035252F /* LatestTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LatestTableViewCell.swift; sourceTree = "<group>"; };
+		EF6A272E1F05CCC20035252F /* FeaturedCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeaturedCollectionViewCell.swift; sourceTree = "<group>"; };
 		EF7A0A471EFFE4ED00F19C49 /* TestTableViewCellPrototype.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestTableViewCellPrototype.swift; sourceTree = "<group>"; };
 		EF7A0A491F0196EE00F19C49 /* CategoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryTableViewController.swift; sourceTree = "<group>"; };
 		EF7A0A4C1F01975500F19C49 /* CategoryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryTableViewCell.swift; sourceTree = "<group>"; };
@@ -151,8 +161,8 @@
 				EF7A0A491F0196EE00F19C49 /* CategoryTableViewController.swift */,
 				EFC30FAB1F01AE4B00B08829 /* FavoriteTableViewController.swift */,
 				EFA13B921F01D419003E2D6B /* CategoryOpenTableViewController.swift */,
-				EF5F0E6E1EFC1A0900BF7722 /* Test */,
 				EF7D3CD01F02EAF40006CF27 /* RecipeOpenTableViewController.swift */,
+				EF5F0E6E1EFC1A0900BF7722 /* Test */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -171,11 +181,14 @@
 			isa = PBXGroup;
 			children = (
 				EF7A0A4C1F01975500F19C49 /* CategoryTableViewCell.swift */,
-				EF4EA09D1EFAC1FF003816BD /* LatestRecipeTableViewCell.swift */,
 				EFB2B5F51EFB854E00CD8B10 /* FeaturedRecipesCollectionViewCell.swift */,
 				EFC30FAD1F01AEB400B08829 /* FavoriteTableViewCell.swift */,
 				EFA13B941F01D43D003E2D6B /* CategoryOpenTableViewCell.swift */,
 				EF7D3CD21F02EB7B0006CF27 /* RecipeOpenTableViewCell.swift */,
+				EF6A27281F0544EC0035252F /* RecipeInstructionTableViewCell.swift */,
+				EF6A272A1F05C46A0035252F /* FeaturedTableViewCell.swift */,
+				EF6A272C1F05C47D0035252F /* LatestTableViewCell.swift */,
+				EF6A272E1F05CCC20035252F /* FeaturedCollectionViewCell.swift */,
 			);
 			name = VIEW;
 			sourceTree = "<group>";
@@ -245,6 +258,8 @@
 				EF846C101EFC346D001B9C87 /* homeCollectionViewHeader.xib */,
 				EF846C121EFC356F001B9C87 /* HomeCollectionReusableViewHeader.swift */,
 				EF7D3CCE1F02D78A0006CF27 /* CustomView.swift */,
+				EF6A27241F053DD10035252F /* recipeHeaderView.xib */,
+				EF6A27261F053E0E0035252F /* RecipeHeaderView.swift */,
 			);
 			name = "Custom Views";
 			sourceTree = "<group>";
@@ -312,6 +327,7 @@
 				EFDBEBBE1EF558DF00B6E836 /* Montserrat in Resources */,
 				EF01C83C1EFAB93D00AE7F86 /* flavor_icons in Resources */,
 				EFB2B5F21EFB83F700CD8B10 /* soup.png in Resources */,
+				EF6A27251F053DD10035252F /* recipeHeaderView.xib in Resources */,
 				EFDBEBC01EF55B9100B6E836 /* SanFranciscoFont-master in Resources */,
 				EFDBEBAF1EF54B3000B6E836 /* LaunchScreen.storyboard in Resources */,
 				EF4EA0A21EFAD054003816BD /* icons8-Menu-48.png in Resources */,
@@ -333,24 +349,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF6A27291F0544EC0035252F /* RecipeInstructionTableViewCell.swift in Sources */,
 				EF7D3CD31F02EB7B0006CF27 /* RecipeOpenTableViewCell.swift in Sources */,
+				EF6A272F1F05CCC20035252F /* FeaturedCollectionViewCell.swift in Sources */,
 				EF01C8201EF897BF00AE7F86 /* SigUpViewController.swift in Sources */,
 				EFC30FAE1F01AEB400B08829 /* FavoriteTableViewCell.swift in Sources */,
+				EF6A272D1F05C47D0035252F /* LatestTableViewCell.swift in Sources */,
 				EFA13B931F01D419003E2D6B /* CategoryOpenTableViewController.swift in Sources */,
 				EFA13B951F01D43D003E2D6B /* CategoryOpenTableViewCell.swift in Sources */,
 				EFC30FAC1F01AE4B00B08829 /* FavoriteTableViewController.swift in Sources */,
 				EF01C83A1EFA385D00AE7F86 /* TabBarController.swift in Sources */,
 				EFDBEBAA1EF54B3000B6E836 /* FLAVOR.xcdatamodeld in Sources */,
 				EF4EA09C1EFAC136003816BD /* HomeTableViewController.swift in Sources */,
+				EF6A27271F053E0E0035252F /* RecipeHeaderView.swift in Sources */,
 				EF5F0E6D1EFC19FC00BF7722 /* TestTableViewCell.swift in Sources */,
 				EF846C131EFC356F001B9C87 /* HomeCollectionReusableViewHeader.swift in Sources */,
 				EFDBEBC91EF830AC00B6E836 /* CustomLabel.swift in Sources */,
 				EF846C0F1EFC2859001B9C87 /* HomeTableViewHeaderView.swift in Sources */,
 				EF7A0A481EFFE4ED00F19C49 /* TestTableViewCellPrototype.swift in Sources */,
-				EF4EA09E1EFAC1FF003816BD /* LatestRecipeTableViewCell.swift in Sources */,
 				EFDBEBC21EF55D5300B6E836 /* CustomColor.swift in Sources */,
 				EF07259B1EF8493300A446E7 /* LogInViewController.swift in Sources */,
 				EFB2B5F61EFB854E00CD8B10 /* FeaturedRecipesCollectionViewCell.swift in Sources */,
+				EF6A272B1F05C46A0035252F /* FeaturedTableViewCell.swift in Sources */,
 				EF07259D1EF84C7700A446E7 /* CustomTextField.swift in Sources */,
 				EF7A0A4A1F0196EE00F19C49 /* CategoryTableViewController.swift in Sources */,
 				EF01C8271EF9982200AE7F86 /* RecipeList.swift in Sources */,

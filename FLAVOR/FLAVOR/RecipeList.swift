@@ -139,6 +139,26 @@ struct RecipeList {
     
     
     
+    func loadGoodRecipe() -> Recipe{
+        
+        let pasta = Recipe(category: "Salad", name: "Pasta Salad", image: UIImage(named: "pasta-recipe.jpg")!, time: 30, difficulty: "Easy", serving: 6, ingredients:
+            [
+                "1 cup mayonnaise or 1 cup salad dressing",
+                "1/4 cup lemon juice concentrate",
+                "2 teaspoons chicken flavor instant bouillon",
+                "1 (7 ounce) package rotini pasta, cooked and crumbled",
+                "8 slices bacon, cooked and crumbled",
+                "1 parge tomato, seeded and chopped",
+                "1/4 cup green onion, sliced", "4 cups lettuce, thinly sliced"],
+                           
+                           instructions: ["Combine mayonnaise, lemon juice, sugar and bouillon for the dressing",
+                                          "Combine rotini, bacon, tomato, and green onion",
+                                          "Combine all ingredients with lettuce"])
+        return pasta 
+    }
+    
+    
+    
     //Returns a list of categories for recipe
     func populateCategories() -> [String] {
         
@@ -154,17 +174,7 @@ struct RecipeList {
     }
     
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
     
     
 }// End Struct

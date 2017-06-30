@@ -10,41 +10,46 @@ import UIKit
 
 class HomeTableViewController: UITableViewController {
 
-    //UI Properties
-    @IBOutlet weak var featuredRecipeCollectionView: UICollectionView!
     
     //Properties
+    var latestRecipe: [Recipe]!
+    var featuredRecipe: [Recipe]!
+    var sections = ["FEATURED RECIPES", "LATEST"]
+    let featureCellReuseIdentfier = "FeaturedCell"
     let latestCellReuseIdentifier = "LatestCell"
-    var latestRecipe: [Recipe]?
-    var featuredRecipe: [Recipe]?
-    
+
+    //First loading function
     override func viewDidLoad() {
         super.viewDidLoad()
         latestRecipe = RecipeList().loadRecipe()
         featuredRecipe = latestRecipe
-        
-        featuredRecipeCollectionView.backgroundColor = UIColor(hexString: "AAAAAA", withAlpha: 0.5)
+        //featuredRecipeCollectionView.backgroundColor = UIColor(hexString: "AAAAAA", withAlpha: 0.5)
     }
 
 
 
     // MARK: - Table view data source
-
     override func numberOfSections(in tableView: UITableView) -> Int {
-        return 1
+        return sections.count
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return latestRecipe!.count
+        return section == 0 ? featuredRecipe!.count : latestRecipe!.count
     }
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: latestCellReuseIdentifier, for: indexPath) as! LatestRecipeTableViewCell
 
-        cell.setUpProperties(recipe: (latestRecipe?[indexPath.row])!)
-
-        return cell
+        if indexPath.section == 0 {
+            let cell = tableView.dequeueReusableCell(withIdentifier: featureCellReuseIdentfier, for: indexPath) as! FeaturedTableViewCell
+            return cell
+            
+        }else {
+            
+            let cell = tableView.dequeueReusableCell(withIdentifier: latestCellReuseIdentifier, for: indexPath) as! LatestTableViewCell
+            return cell
+        }
+        
     }
     
     /*
@@ -59,25 +64,6 @@ class HomeTableViewController: UITableViewController {
 
 }
 
-extension HomeTableViewController: UICollectionViewDelegate, UICollectionViewDataSource {
-   
-    
-    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 10
-    }
-    
-    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "collectionCell", for: indexPath) as! FeaturedRecipesCollectionViewCell
-        
-        return cell
-        
-    }
-    
-    
-    
-    
-}
 
 
 
