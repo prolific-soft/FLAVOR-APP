@@ -19,7 +19,7 @@ class RecipeOpenTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        testRecipe = RecipeList().loadGoodRecipe()
+        testRecipe = RecipeList().loadGoodRecipe().first
         
         //let testRecipeList = RecipeList().loadRecipe()
         //testRecipe = testRecipeList[8]
